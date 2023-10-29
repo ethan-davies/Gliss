@@ -27,7 +27,7 @@ async function createWindow() {
         transparent: false,
         show: true,
         webPreferences: {
-            devTools: true,
+            devTools: false,
             preload,
             sandbox: false,
             nodeIntegration: true,
