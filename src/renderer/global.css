@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+
 .console {
   background-color: #1e1e1e;
   border: 2px solid #6f6f6f;
@@ -20,7 +22,8 @@
 
 .console-line {
   color: #f8f8f8;
-  font-family: monospace;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.7em;
   white-space: pre-wrap;
   margin: 0;
 }
