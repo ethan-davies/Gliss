@@ -1,6 +1,6 @@
 {
-	"name": "app",
-	"description": "Electron + Vite + React boilerplate.",
+	"name": "gliss",
+	"description": "Minecraft speedrunning tool",
 	"version": "1.0.0",
 	"private": true,
 	"main": "dist-electron/main/index.js",

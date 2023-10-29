@@ -13,9 +13,8 @@ let window: BrowserWindow
 async function createWindow() {
     const preload = join(__dirname, '../preload/index.js')
 
-    // Set the desired width and height for your window
-    const windowWidth = 800 // Adjust to the desired width
-    const windowHeight = 600 // Adjust to the desired height
+    const windowWidth = 800
+    const windowHeight = 600
 
     window = new BrowserWindow({
         width: windowWidth,
@@ -24,7 +23,7 @@ async function createWindow() {
         minHeight: windowHeight,
         maxWidth: windowWidth,
         maxHeight: windowHeight,
-        frame: false,
+        frame: true,
         transparent: false,
         show: true,
         webPreferences: {
